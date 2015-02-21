@@ -14,6 +14,7 @@ public class TestaConta {
         System.out.println("Antes de emprestar");
         Conta conta1 = new Conta(1,"Francisco",500.0);
         System.out.println(conta1);
+        conta1.sacar(100);
         Conta conta2 = new Conta(2, "Pedro", 400);
         System.out.println(conta2);
         System.out.println("Depois de emprestar");

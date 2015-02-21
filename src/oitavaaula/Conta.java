@@ -5,8 +5,6 @@
  */
 package oitavaaula;
 
-import javax.swing.JOptionPane;
-
 /**
  *
  * @author renato
@@ -17,6 +15,8 @@ public class Conta {
     double saldo;
     
     public Conta(){
+        this.numero = 1;
+        this.saldo = 0.0;
     }
     
     public Conta(int numero, String titular, double saldo) {
@@ -50,17 +50,5 @@ public class Conta {
     public String toString() {
         return "Conta{" + "numero=" + numero + ", titular=" + titular + ", saldo=" + saldo + '}';
     }
-
- 
-
-  
-
-    
-
-    
-    
-    
-    
-    
     
 } // fim da classe Conta
